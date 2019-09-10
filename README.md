@@ -36,8 +36,8 @@
 ### [INDEX]  
 
 > #### 1. Public API
->> 1-1. Ticker1     - Final trading information of Btrade Exchange (Deprecated)  
->> 1-2. Ticker2     - Final trading information of Btrade Exchange (Added market information)  
+>> 1-1. Ticker1     - Final trading information of SIREX Exchange (Deprecated)  
+>> 1-2. Ticker2     - Final trading information of SIREX Exchange (Added market information)  
 >> 1-3. Orderbook   - Exchange's Sell / Buy order history info
 
 
@@ -67,7 +67,7 @@
 ### [Reference]  
 
 #### 1. Public API
-> 1-1. Ticker1     - Final trading information of Btrade Exchange (Deprecated)  
+> 1-1. Ticker1     - Final trading information of SIREX Exchange (Deprecated)  
 #### [GET] 
 `https://api.sirex.exchange/api/ticker/currency/{coin_code}`
 
