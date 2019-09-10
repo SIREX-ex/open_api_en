@@ -15,7 +15,9 @@
 ####     [Generating an API Key](https://sirex.exchange/mypage/mypage.do?menu=api) (API Key can be generated from the SIREX My page.)
 
 
+
 ------------------
+
 
 
 ### [API Notice]
@@ -25,8 +27,10 @@
          The last trading information API(ticker) on the previous exchange has been deprecated,
          and a Ticker with market information has been added.
          
+         
   
 ------------------
+
 
 
 ### [INDEX]  
@@ -50,10 +54,43 @@
 >> 3-5. Place       - Place and Execute orders (Sell / Buy)  
 
 
-> #### 4. Token 
+> #### 4. Status 
 >> 4-1. Token Error   
 >> 4-2. Exception  
 
 
 
+------------------
 
+
+
+### [Reference]  
+
+#### 1. Public API
+> 1-1. Ticker1     - Final trading information of Btrade Exchange (Deprecated)  
+#### [GET] 
+`https://api.sirex.exchange/api/ticker/currency/{coin_code}`
+
+#### [Curl] 
+`curl -X GET --header 'Accept: application/json`
+`https://api.sirex.exchange/api/ticker/currency/{coin_code}`
+
+#### [Response Body]
+```json
+{
+  "status": "0000",
+  "data": {
+    "open_price": "10000",
+    "close_price": "10000",
+    "low": "10000",
+    "high": "10000",
+    "average_price": "0.0",
+    "units_traded": "0E-18",
+    "volume_1day": "0E-18",
+    "volume_7day": "431.699880000000000000",
+    "buy_price": "0000000000.00000000",
+    "sell_price": "0000000000.00000000",
+    "date": 1548933680756
+  }
+}
+```
