@@ -99,7 +99,7 @@
 
 Parameter Name | Description 
 :------------: | :-------------: 
-coin_code | Coin Name (ALL, BTC, ETH, ETC, LTC, ZEC, etc.) 
+coin_code | Coin Name (BTC_ETH, BTC_ADW, BTC_ZER, BTC_ANTL, etc.) 
 
 #### [Response]
 
@@ -120,7 +120,7 @@ date | Current Timestamp
 
 </br>
 
->####  *1-2. Ticker2     - Final trading information of SIREX Exchange (Added market information)*
+>####  *1-2. Ticker2     - Final trading information of SIREX Exchange (Added market information)* **Not Used**
 #### [GET] 
 `https://api.sirex.exchange/api/v1/ticker/currency/{coin_code}`
 
@@ -167,7 +167,7 @@ date | Current Timestamp
 
 Parameter Name | Description 
 :------------: | :-------------: 
-coin_code | Coin Name (ALL, BTC, ETH, ETC, LTC, ZEC, etc.) 
+coin_code | Coin Name (BTC_ETH, BTC_ADW, BTC_ZER, BTC_ANTL, etc.) 
 
 #### [Response]
 
@@ -236,7 +236,7 @@ date | Current Timestamp
 
 Parameter Name | Description 
 :------------: | :-------------: 
-coin_code | Coin Name (BTC, ETH, ETC, LTC, ZEC, etc.) 
+coin_code | Coin Name (BTC_ETH, BTC_ADW, BTC_ZER, BTC_ANTL, etc.) 
 
 #### [Response]
 
@@ -418,7 +418,7 @@ Authorization | Access Token
 
 Parameter Name | Description 
 :------------: | :-------------: 
-currency | Coin Name (BTC, ETH, ETC, LTC, ZEC, etc.) 
+currency | Coin Name (BTC_ETH, BTC_ADW, BTC_ZER, BTC_ANTL, etc.) 
 
 #### [Response]
 
@@ -469,7 +469,7 @@ Authorization | Access Token
 
 Parameter Name | Description 
 :------------: | :-------------: 
-currency | Coin Name (BTC, ETH, ETC, LTC, ZEC, etc.) 
+currency | Coin Name (BTC_ETH, BTC_ADW, BTC_ZER, BTC_ANTL, etc.) 
 
 #### [Response]
 
@@ -545,7 +545,7 @@ Authorization | Access Token
 
 Parameter Name | Description 
 :------------: | :-------------: 
-currency | Coin Name (BTC, ETH, ETC, LTC, ZEC, etc.) 
+currency | Coin Name (BTC_ETH, BTC_ADW, BTC_ZER, BTC_ANTL, etc.) 
 deal_status | Status - 0 (total), 1 (sell), 2 (buy), 3 (cancel), 4 (correct)
 trd_status | Order Status - OK, WAIT
 
@@ -607,7 +607,7 @@ Content-Type | The Content-Type entity header is used to indicate the media type
 Parameter Name | Description 
 :------------: | :-------------: 
 apikey | User API Unique Key 
-currency | Coin Name (BTC, ETH, ETC, LTC, ZEC, etc.)  
+currency | Coin Name (BTC_ETH, BTC_ADW, BTC_ZER, BTC_ANTL, etc.)  
 org_ord_no | Order Number  
 nonce | Current Date (ex: 20190208)  
 hstr | sha-256(nonce, currency, secretKey, sheckSum)  
@@ -667,7 +667,7 @@ Content-Type | The Content-Type entity header is used to indicate the media type
 
 Parameter Name | Description 
 :------------: | :-------------: 
-currency | Coin Name (BTC, ETH, ETC, LTC, ZEC, etc.)  
+currency | Coin Name (BTC_ETH, BTC_ADW, BTC_ZER, BTC_ANTL, etc.)  
 deal_type | Type of trade (B-Buy, S-Sell)   
 deal_money | Order Price  
 amount | Order Amount  
